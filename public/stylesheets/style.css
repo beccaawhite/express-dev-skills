@@ -1,0 +1,57 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: antiquewhite;
+}
+
+a {
+  color: #00b7ffde;
+}
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+#delete-form  {
+  background-color: gainsboro;
+}
+
+#delete-form:hover  {
+  background-color: rgb(227, 95, 95);
+}
+	
+li {
+  list-style: square;
+}
+
+nav {
+  background-color: rgba(220, 180, 40, .75);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+nav > a {
+  margin: 20px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+nav > a:hover {
+  color: white;
+  background-color: #424748;
+}
+
+nav > a.active {
+  color: white;
+}
+
+button {
+  background-color: gainsboro;
+}
+
+button:hover {
+  background-color: rgba(220, 180, 40, .75);
+}
